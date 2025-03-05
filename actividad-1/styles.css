@@ -1,0 +1,10 @@
+.box {
+    background-color: rgb(104, 104, 126);
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .box {
+        background-color: rgb(255, 0, 0);
+    }
+}

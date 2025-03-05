@@ -1,0 +1,33 @@
+.box {
+    background-color: rgb(143, 143, 146);
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .box {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .box {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .box {
+        width: 50%;
+        background-color: green;
+    }
+}.box {
+    background-color: rgb(137, 137, 139);
+    width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .box {
+        background-color: red;
+    }
+}

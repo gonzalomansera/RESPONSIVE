@@ -1,0 +1,45 @@
+.box {
+    background-color: rgb(146, 146, 146);
+    width: 100%;
+}
+
+.body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 1024px){
+    body {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .box {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .box {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .box {
+        width: 50%;
+        background-color: green;
+    }
+}.box {
+    background-color: rgb(138, 138, 138);
+    width: 100%;
+}
+    
